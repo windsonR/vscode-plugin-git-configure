@@ -4,22 +4,27 @@ import { gitConfig } from '../utils';
 
 export async function configUserNameAndEmail() {
   let userNameOption: InputBoxOptions = {
-    prompt: "userName: ",
-    placeHolder: "(user.name)"
+    prompt: vscode.l10n.t('message.userName.prompt', 'username: '),
+    placeHolder: vscode.l10n.t('message.userName.placeholder', '(user.name)')
   };
   let emailOption: InputBoxOptions = {
-    prompt: "email: ",
-    placeHolder: "(user.email)"
+    prompt: vscode.l10n.t('message.email.prompt', 'email: '),
+    placeHolder: vscode.l10n.t('message.email.placeholder', '(user.email)')
   };
+
   const userName = await vscode.window.showInputBox(userNameOption);
   if (!userName) {
-    vscode.window.showErrorMessage('需要输入一个用户名!');
+    if (userName !== undefined) {
+      vscode.window.showErrorMessage(vscode.l10n.t('error.needUserName', 'need input an username'));
+    }
     return;
   }
   gitConfig('user.name', userName);
   const email = await vscode.window.showInputBox(emailOption);
   if (!email) {
-    vscode.window.showErrorMessage('需要输入一个邮箱!');
+    if (email !== undefined) {
+      vscode.window.showErrorMessage(vscode.l10n.t('error.needEmail', 'need input an Email'));
+    }
     return;
   }
   gitConfig('user.email', email);

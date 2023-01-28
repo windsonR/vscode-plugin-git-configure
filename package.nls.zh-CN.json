@@ -1,3 +1,4 @@
 {
-  "command.getGpgConfig": "[GPG]: 在此项目中配置gpg密钥"
+  "command.git.config.usernameAndEmail.title": "[git-configigure]: 在git中配置用户名和邮箱",
+  "command.gpg.config.title": "[git-configigure]: 在git配置中配置GPG密钥"
 }

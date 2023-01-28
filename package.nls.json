@@ -1,3 +1,4 @@
 {
-  "command.getGpgConfig": "[GPG]: config gpg to git config"
+  "command.git.config.usernameAndEmail.title": "[git-configigure]: userNameAndEmail",
+  "command.gpg.config.title": "[git-configigure]: config gpg to git config"
 }

@@ -1,0 +1,8 @@
+{
+  "error.needEmail": "need input an email",
+  "error.needUserName": "need input an username",
+  "message.email.placeholder": "git config (user.email)",
+  "message.email.prompt": "email: ",
+  "message.userName.placeholder": " git config (user.name)",
+  "message.userName.prompt": "username: "
+}

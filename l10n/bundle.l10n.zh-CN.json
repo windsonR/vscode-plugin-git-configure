@@ -1,0 +1,8 @@
+{
+  "error.needEmail": "需要输入邮箱!",
+  "error.needUserName": "需要输入用户名!",
+  "message.email.placeholder": "git config (user.email)",
+  "message.email.prompt": "邮箱: ",
+  "message.userName.placeholder": " git config (user.name)",
+  "message.userName.prompt": "用户名: "
+}
