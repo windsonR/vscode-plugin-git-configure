@@ -10,8 +10,8 @@
     "SCM Providers"
   ],
   "activationEvents": [
-    "onCommand:gpg-configure.config",
-    "onCommand:git-config.userNameAndEmail"
+    "onCommand:git-config.user.signingkey",
+    "onCommand:git-config.user.name-email"
   ],
   "repository": {},
   "publisher": "windsonR",
@@ -19,11 +19,11 @@
   "contributes": {
     "commands": [
       {
-        "command": "gpg-configure.config",
+        "command": "git-config.user.signingkey",
         "title": "%command.gpg.config.title%"
       },
       {
-        "command": "git-config.userNameAndEmail",
+        "command": "git-config.user.name-email",
         "title": "%command.git.config.usernameAndEmail.title%"
       }
     ]

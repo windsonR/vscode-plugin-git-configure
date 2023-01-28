@@ -6,8 +6,8 @@ Like execute command `git config`
 
 ## Features
 
-- Command `gpg-configure.config` to config `user.signingkey` config to current git config.
-- Command `git-config.userNameAndEmail` to config `user.name` and `user.email` config to current git config.
+- Command `git-config.user.signingkey` to config `user.signingkey` config to current git config.
+- Command `git-config.user.name-email` to config `user.name` and `user.email` config to current git config.
 
 ## Supported locales
 
