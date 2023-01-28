@@ -1,6 +1,6 @@
 {
-  "name": "gpg-configure",
-  "displayName": "gpg-configure",
+  "name": "git-configure",
+  "displayName": "git-configure",
   "description": "In vscode, config GPG key to git config ",
   "version": "0.0.1",
   "engines": {
@@ -10,7 +10,8 @@
     "SCM Providers"
   ],
   "activationEvents": [
-    "onCommand:gpg-configure.config"
+    "onCommand:gpg-configure.config",
+    "onCommand:git-config.userNameAndEmail"
   ],
   "repository": {},
   "publisher": "windsonR",
@@ -20,6 +21,10 @@
       {
         "command": "gpg-configure.config",
         "title": "%command.getGpgConfig%"
+      },
+      {
+        "command": "git-config.userNameAndEmail",
+        "title": "[git]: userNameAndEmail"
       }
     ]
   },
