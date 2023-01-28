@@ -1,4 +1,4 @@
 {
-  "command.git.config.usernameAndEmail.title": "[git-configigure]: userNameAndEmail",
+  "command.git.config.usernameAndEmail.title": "[git-configigure]: config user name & email",
   "command.gpg.config.title": "[git-configigure]: config gpg to git config"
 }
