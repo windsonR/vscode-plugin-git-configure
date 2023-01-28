@@ -13,7 +13,13 @@
     "onCommand:git-config.user.signingkey",
     "onCommand:git-config.user.name-email"
   ],
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windsonR/vscode-plugin-git-configure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/windsonR/vscode-plugin-git-configure/issues"
+  },
   "publisher": "windsonR",
   "main": "./out/extension.js",
   "contributes": {
