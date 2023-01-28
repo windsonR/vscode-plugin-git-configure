@@ -1,12 +1,13 @@
 # README
 
-This plugin can easy config current project's gpg key.
+This plugin can easily config git.
 
-Like execute command `git config user.signingkey`
+Like execute command `git config`
 
 ## Features
 
-- Command `gpg-configure.config` to config `gpg` key to current project.
+- Command `gpg-configure.config` to config `user.signingkey` config to current git config.
+- Command `git-config.userNameAndEmail` to config `user.name` and `user.email` config to current git config.
 
 ## Supported locales
 
